@@ -1,0 +1,181 @@
+/* Breakpoint for Medium Screens */
+
+@media screen and (max-width: 992px) {
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    /* Adding Responsiveness to Navigation Bar */
+
+    .nav-menu-icon {
+        display: inline-block;
+    }
+
+    .nav-sub-2 {
+        display: none;
+    }
+
+    .element-3 {
+        top: 600px;
+        right: 700px;
+    }
+
+    .main-sub-image-2 {
+        right: 150px;
+        top: 1000px;
+    }
+
+    .profile-icon {
+        display: block;
+    }
+
+    .nav-sub-3 {
+        display: none;
+    }
+
+    .nav-sub-1 img {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+    }
+
+    .nav-sub-1 p {
+        font-size: 1.2rem;
+    }
+
+    .nav-main div {
+        padding: 20px;
+    }
+
+    .main-content div {
+        padding: 0 50px 20px 50px;
+        margin-right: 0px;
+    }
+
+    .main-header h1 {
+        font-size: 2rem;
+    }
+
+    .main-buttons > .buttons {
+        height: 50px;
+        width: 120px;
+    }
+
+    .footer-container {
+        margin-top: 400px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    /* Adding Responsiveness to Hero Section */
+
+    .main-image {
+        padding-top: 50px;
+    }
+
+    .main-sub-image-1 {
+        right: 280px;
+        width: 40%;
+    }
+
+    .main-sub-image-2 {
+        right: 260px;
+        top: 295px;
+        width: 45%;
+    }
+
+    .element-1 {
+        right: 700px;
+    }
+
+    .element-2 {
+        top: 700px;
+        right: 600px;
+    }
+
+    .element-3 {
+        top: 700px;
+        right: 150px;
+    }
+
+    .element-4 {
+        top: 450px;
+        right: 100px;
+    }
+
+    /* Adding Reponsiveness to Footer Section */
+
+    .footer-container {
+        padding: 20px;
+        justify-content: start;
+        align-items: center;
+        align-content: center;
+    }
+
+    .footer-container div {
+        margin-bottom: 30px;
+    }
+    
+    .footer-block-2 {
+        align-items: center;
+    }
+    
+    .footer-block-3 {
+        align-items: center;
+    }
+    
+    .footer-block-4 {
+        align-items: center;
+    }
+}
+
+/* Breakpoint For Smaller Screens */
+
+@media screen and (max-width: 600px) {
+
+    .main-buttons {
+        position: relative;
+        top: 350px;
+    }
+    
+    .main-sub-image-1 {
+        margin-top: -80px;
+        right: 130px;
+        width: 50%;
+    }
+    
+    .main-sub-image-2 {
+        margin-top: -80px;
+        right: 120px;
+        top: 310px;
+        width: 58%;
+    }
+    
+    .element-1 {
+        margin-top: -80px;
+        right: 370px;
+        width: 8%;
+    }
+    
+    .element-2 {
+        margin-top: -80px;
+        width: 5%;
+        top: 550px;
+        right: 380px;
+    }
+    
+    .element-3 {
+        margin-top: -80px;
+        top: 700px;
+        right: 100px;
+        width: 20%;
+    }
+    
+    .element-4 {
+        margin-top: -80px;
+        width: 5%;
+        top: 550px;
+        right: 80px;
+    }
+}
