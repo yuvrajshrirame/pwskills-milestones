@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT: Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+    <style>
+        /* Background Gradient */
+        .custom-gradient {
+            background: radial-gradient(circle at top left, #eb3cff, #eb3cff, #8400ff, #421a9a, #29065d, #240045, #240045, #240045, #240045, #240045, #240045, #240045);
+        }
+        /* Round Bottom of Hero Secction */
+        .rounded-bottom {
+            clip-path: ellipse(100% 80% at 50% 20%);
+        }
+        /* Cutting Corners */
+        .corner-cut {
+            width: 200px;
+            min-height: 200px;
+            clip-path: polygon(0 0, 0 100%, 100% 100%, 100% 75%, 5% 0);
+        }
+    </style>
+</head>
+<body class="bg-[#160E2A] h-[500vh] w-[500px]">
+    <!-- Navigation Bar -->
+    <nav class="flex justify-between items-center fixed w-full h-20 backdrop-blur-[15px] bg-[rgba(255,255,255,0.1)] text-white border-b-[1px] border-white px-20 z-50">
+        <img src="./assets/logo.png" alt="Logo" class="">
+        <div class="text-[18px]">
+            <ul class="list-none inline-flex pl-40">
+                <li class="pr-10">MARKETPLACE</li>
+                <li class="pr-10">ABOUT</li>
+                <li class="pr-10">RESOURCES</li>
+                <li>FAQ</li>
+            </ul>
+        </div>
+        <div class="flex items-center gap-4">
+            <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] px-[2px] py-[2px] rounded-lg">
+                <button class="bg-[rgba(0,0,0,0.9)] px-6 py-2 rounded-md">Log In</button>
+            </div>
+            <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] px-[2px] py-[2px] rounded-lg">
+                <button class="bg-[rgba(0,0,0,0.9)] px-6 py-2 rounded-md">Sign Up</button>
+            </div>
+        </div>
+    </nav>
+    <main class="w-[100vw]">
+        <!-- Hero Section -->
+        <div class="flex items-center justify-evenly custom-gradient rounded-bottom px-20 text-white">
+            <div class="">
+                <h1 class="text-7xl text-[#d6a4ff] font-mono leading-[80px]">Keep Calm &<br> Collect Your NFTs.</h1>
+                <p class="w-[60%] pt-14 text-[#f0dfff]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta asperiores labore rerum minima laborum. Eos, adipisci magni. Veritatis totam recusandae animi sint. Reprehenderit, voluptatibus alias! Obcaecati iusto voluptatibus sit eos.</p>
+                <div class="flex items-center pt-14">
+                    <div class="pr-2">
+                        <i class="fa-solid fa-play py-5 px-4 fa-2xl rounded-md flex justify-center items-center bg-clip-text text-transparent bg-gradient-to-b from-[#5100ff] to-[#eb3cff] shadow-2xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-2xl font-bold text-white">Let's get started!</p>
+                        <p class="text-[#f0dfff] pt-1 leading-5">Watch this quick demo video to see<br> how to get started.</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./assets/splash-image.png" alt="Splash-Image" class="w-[1000px]">
+            </div>
+        </div>
+        <!-- World Map: Top Creators -->
+        <div class="text-white mt-36 relative">
+            <div class="flex items-center justify-center">
+                <div class="w-20 h-20 bg-gradient-to-b from-[#5100ff] to-[#eb3cff] rounded-full"></div>
+                <h2 class="text-[40px] ml-[-40px]">Top Creators</h2>
+            </div>
+            <!-- Embeding Map -->
+            <img src="./assets/map.png" alt="World-Map" class="mt-10 mx-auto">
+            <!-- Person Pointers -->
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[150px] left-[287px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[275px] left-[475px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[453px] left-[535px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[185px] left-[730px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[130px] right-[220px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[270px] right-[508px]">
+            <img src="./assets/person.png" alt="Person-Pointers" class="absolute top-[460px] right-[547px]">
+            <!-- Button -->
+            <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] px-[2px] py-[2px] rounded-lg w-[185px] h-[45px] flex items-center justify-center mx-auto mt-10">
+                <button class="bg-[rgba(0,0,0,0.9)] px-6 py-2 rounded-md">View All Collectors</button>
+            </div>
+        </div>
+        <!-- Latest NFT Collections -->
+        <div class="flex text-white mt-40">
+            <div class="w-[400px] h-[400px] bg-gradient-to-t from-[#7501f9] to-[#77189a] rounded-full absolute mt-[200px] blur-[150px] z-[-1]"></div>
+            <div class="relative">
+                <!-- Images -->
+                <div class="w-[200px] h-[200px] bg-gradient-to-br from-[#5100ff] to-[#eb3cff] flex items-center justify-center absolute top-0 left-[100px]">
+                    <img src="./assets/image-1.png" alt="God">
+                </div>
+                <div class="w-[200px] h-[200px] bg-gradient-to-r from-[#242424] to-[#444444] flex items-end justify-center absolute left-[150px] top-[350px]">
+                    <img src="./assets/avatar-1.png" alt="Soldier">
+                </div>
+                <div class="w-[200px] h-[200px] flex items-end justify-center absolute left-[430px] top-[100px]">
+                    <img src="./assets/merlin.png" alt="Merlin">
+                </div>
+                <div class="w-[200px] h-[200px] flex items-end justify-center absolute left-[450px] top-[450px]">
+                    <img src="./assets/avatar-2.png" alt="Alien">
+                </div>
+                <!-- Borders -->
+                <div class="w-[200px] h-[250px] border-2 border-white flex flex-col px-5 corner-cut absolute top-[40px] left-[70px]">
+                    <p class="mt-[175px] font-medium text-[18px] pb-1">Ancient Ones</p>
+                    <div class="flex items-center">
+                        <i class="fa-brands fa-ethereum fa-xl pr-3" style="color: #ffffff;"></i>
+                        <p class="font-medium">5.0 ETH</p>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[250px] border-2 border-white flex flex-col px-5 corner-cut absolute top-[140px] left-[410px]">
+                    <p class="mt-[175px] font-medium text-[18px] pb-1">Lost In Space</p>
+                    <div class="flex items-center">
+                        <i class="fa-brands fa-ethereum fa-xl pr-3" style="color: #ffffff;"></i>
+                        <p class="font-medium">3.0 ETH</p>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[250px] border-2 border-white flex flex-col px-5 corner-cut absolute top-[390px] left-[120px]">
+                    <p class="mt-[175px] font-medium text-[18px] pb-1">God of War</p>
+                    <div class="flex items-center">
+                        <i class="fa-brands fa-ethereum fa-xl pr-3" style="color: #ffffff;"></i>
+                        <p class="font-medium">7.0 ETH</p>
+                    </div>
+                </div>
+                <div class="w-[200px] h-[250px] border-2 border-white flex flex-col px-5 corner-cut absolute top-[490px] left-[425px]">
+                    <p class="mt-[175px] font-medium text-[18px] pb-1">The Watchers</p>
+                    <div class="flex items-center">
+                        <i class="fa-brands fa-ethereum fa-xl pr-3" style="color: #ffffff;"></i>
+                        <p class="font-medium">3.2 ETH</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-[45%] mt-[10%] p-20">
+                <div class="flex items-center ml-[-40px]">
+                    <div class="w-20 h-20 bg-gradient-to-b from-[#5100ff] to-[#eb3cff] rounded-full"></div>
+                    <h2 class="text-[40px] ml-[-40px]">Latest NFT Collections</h2>
+                </div>
+                <p class="text-[#6c8f6c] text-xl mt-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi voluptas fugiat expedita tempora odio esse ut nulla harum dolore iure, nemo dolorum exercitationem soluta.</p>
+                <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] px-[2px] py-[2px] rounded-lg w-[185px] h-[45px] flex items-center justify-center mt-16">
+                    <button class="bg-[rgba(0,0,0,0.9)] px-6 py-2 rounded-md">View All Collectors</button>
+                </div>
+            </div>
+        </div>
+        <!-- Why Choose Us? -->
+        <div class="h-[600px] w-[1382px] bg-gradient-to-b from-[#e11bff] to-[#00bfff] mt-52 rounded-r-full flex items-center text-white relative">
+            <div class="h-[598px] w-[1380px] bg-[#0d0818] rounded-r-full flex justify-between px-20 items-center">
+                <!-- Content -->
+                <div class="w-[40%]">
+                    <div class="flex items-center">
+                        <div class="w-20 h-20 bg-gradient-to-b from-[#5100ff] to-[#eb3cff] rounded-full"></div>
+                        <h2 class="text-[40px] ml-[-40px]">Why Choose Us?</h2>
+                    </div>
+                    <p class="text-[#6c8f6c] text-[22px] mt-10">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed rerum distinctio sequi mollitia! Architecto ex laboriosam, consequuntur recusandae corporis nemo commodi rerum, veritatis nobis.</p>
+                    <p class="text-[#6c8f6c] text-[22px] mt-10">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et voluptates mollitia nemo voluptate numquam facere odit, obcaecati iure officiis quisquam!</p>
+                </div>
+                <!-- Images with Glass Morphism -->
+                <div class="mr-[-70px]">
+                    <div class="flex gap-5">
+                        <div class="h-[180px] w-[250px] bg-gradient-to-br from-[rgba(42,42,42,0.2)] to-[rgb(0,0,0,0.2)] backdrop-blur-[15px] rounded-2xl border-[1px] border-[#4444449c] flex items-center justify-center flex-col z-40">
+                            <img src="./assets/simple-icon.png" alt="Marketplace-Icon">
+                            <p class="pt-5">Marketplace</p>
+                        </div>
+                        <div class="h-[180px] w-[250px] bg-gradient-to-br from-[rgba(42,42,42,0.2)] to-[rgb(0,0,0,0.2)] backdrop-blur-[15px] rounded-2xl border-[1px] border-[#4444449c] flex items-center justify-center flex-col z-40">
+                            <img src="./assets/vector-2.png" alt="Money-Protection-Icon">
+                            <p class="pt-5">Money Protection</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 mt-5 ml-[50px]">
+                        <div class="h-[180px] w-[250px] bg-gradient-to-br from-[rgba(42,42,42,0.2)] to-[rgb(0,0,0,0.2)] backdrop-blur-[15px] rounded-2xl border-[1px] border-[#4444449c] flex items-center justify-center flex-col z-40">
+                            <img src="./assets/vector-1.png" alt="Data-Protection-Icon">
+                            <p class="pt-5">Data Protection</p>
+                        </div>
+                        <div class="h-[180px] w-[250px] bg-gradient-to-br from-[rgba(42,42,42,0.2)] to-[rgb(0,0,0,0.2)] backdrop-blur-[15px] rounded-2xl border-[1px] border-[#4444449c] flex items-center justify-center flex-col z-40">
+                            <img src="./assets/health-icon.png" alt="Secure-Icon">
+                            <p class="pt-5">Fast & Secure</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Adding Glow to Glasses -->
+        <div class="relative">
+            <div class="h-[90px] w-[90px] bg-[#ffac05] rounded-full absolute right-[620px] top-[-500px] blur-[30px]"></div>
+            <div class="h-[90px] w-[90px] bg-[#ff4f09] rounded-full absolute right-[300px] top-[-400px] blur-[30px]"></div>
+            <div class="h-[90px] w-[90px] bg-[#14adff] rounded-full absolute right-[550px] top-[-300px] blur-[30px]"></div>
+            <div class="h-[90px] w-[90px] bg-[#05ff12] rounded-full absolute right-[250px] top-[-200px] blur-[30px]"></div>
+        </div>
+        <!-- Procedure: Creating & Selling NFTs -->
+        <div class="h-[650px] w-full bg-gradient-to-r from-[#5100ff] to-[#eb3cff] rounded-b-[46.3%]">
+            <div class="text-white mt-[150px] flex flex-col items-center h-[648px] rounded-b-[46%] w-full bg-[#160E2A]">
+                <div class="flex items-center">
+                    <div class="w-20 h-20 bg-gradient-to-b from-[#5100ff] to-[#eb3cff] rounded-full"></div>
+                    <h2 class="text-[40px] ml-[-40px]">Create And Sell Your NFTs</h2>
+                </div>
+                <div class="mt-20 flex gap-16 items-center">
+                    <div class="h-[300px] w-[250px]">
+                        <img src="./assets/wallet-one.png" alt="Wallet-Icon" class="mx-auto">
+                        <h2 class="text-center text-2xl font-medium mt-4">Set Up Your Wallet</h2>
+                        <p class="mt-5 text-[#c3c3c3] px-5">Once you've set up your wallet of choice, connect it to OpenSea by clicking the     wallet icon in the top right corner. Learn about the wallet we support.</p>
+                    </div>
+                    <div class="h-[300px] w-[250px]">
+                        <img src="./assets/triangle-round-rectangle.svg" alt="Wallet-Icon" class="mx-auto">
+                        <h2 class="text-center text-2xl font-medium mt-4">Create Your Collection</h2>
+                        <p class="mt-5 text-[#c3c3c3] px-5">Click my collections and setup your collections. Add social links, a descriptio,    profile & banner images, and set a secondary sales fee.</p>
+                    </div>
+                    <div class="h-[300px] w-[250px]">
+                        <img src="./assets/picture.png" alt="Wallet-Icon" class="mx-auto">
+                        <h2 class="text-center text-2xl font-medium mt-4">Add Your NFTs</h2>
+                        <p class="mt-5 text-[#c3c3c3] px-5">Upload your work (image, video, audio, or 3D art), add a title and description,     and customize your NFTs with properties, stats, and unlockable content.</p>
+                    </div>
+                    <div class="h-[300px] w-[250px]">
+                        <img src="./assets/shopping-bag.svg" alt="Wallet-Icon" class="mx-auto">
+                        <h2 class="text-center text-2xl font-medium mt-4">List Them For Sale</h2>
+                        <p class="mt-5 text-[#c3c3c3] px-5">Choose between auctions, fixed-price listings, and declining-price listings. Your   choose how you want to sell your NFTs, and we help you sell them!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Section -->
+        <div class="text-white mt-[100px] flex flex-col items-center">
+            <h2 class="text-[40px] text-center">Ready For Next NFT Drop?</h2>
+            <input type="email" name="email" id="email" placeholder="youremail@xyz.com" class="text-white w-[300px] h-[20px] mt-10 bg-[#0d0818] text-center py-7 rounded-md">
+            <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] h-[52px] w-[202px] rounded-lg flex items-center justify-center mt-10">
+                <button class="bg-[rgba(0,0,0,0.9)] h-[48px] w-[198px] rounded-md">Send Email</button>
+            </div>
+        </div>
+    </main>
+    <!-- Footer Section -->
+    <footer>
+        <div class="bg-gradient-to-r from-[#00bfff] to-[#e11bff] h-[560px] w-[100vw] mt-[100px] flex items-end text-white">
+            <div class="bg-[#0d0818] h-[558px] w-[100vw]">
+                <div class="p-20 flex flex-row justify-between items-start">
+                    <div>
+                        <img src="./assets/logo.png" alt="Logo" class="w-[100px]">
+                        <h2 class="text-[24px] font-medium mt-10">Amazing NFTs Marketplace, Authentic and Unique<br> Digital Creation.</h2>
+                        <div class="flex gap-4 mt-20">
+                            <div class="h-[40px] w-[40px] rounded-full border-2 border-[#7E7AD7] flex items-center justify-center">
+                                <img src="./assets/whatsapp-logo.png" alt="">
+                            </div>
+                            <div class="h-[40px] w-[40px] rounded-full border-2 border-[#7E7AD7] flex items-center justify-center">
+                                <img src="./assets/facebook-logo.png" alt="">
+                            </div>
+                            <div class="h-[40px] w-[40px] rounded-full border-2 border-[#7E7AD7] flex items-center justify-center">
+                                <img src="./assets/instagram-logo.png" alt="">
+                            </div>
+                            <div class="h-[40px] w-[40px] rounded-full border-2 border-[#7E7AD7] flex items-center justify-center">
+                                <img src="./assets/youtube-logo.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-medium">Marketplace</h2>
+                        <ul class="mt-16">
+                            <li class="text-2xl pb-8">Explore</li>
+                            <li class="text-2xl pb-8">NFTs</li>
+                            <li class="text-2xl pb-8">Collectibles</li>
+                            <li class="text-2xl">Virtual Reality</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-medium">Resources</h2>
+                        <ul class="mt-16">
+                            <li class="text-2xl pb-8">Help Center</li>
+                            <li class="text-2xl pb-8">Partners</li>
+                            <li class="text-2xl pb-8">Blog</li>
+                            <li class="text-2xl">Newsletter</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h2 class="text-3xl font-medium">Company</h2>
+                        <ul class="mt-16">
+                            <li class="text-2xl pb-8">About Us</li>
+                            <li class="text-2xl pb-8">Careers</li>
+                            <li class="text-2xl pb-8">Support</li>
+                            <li class="text-2xl">Newsletter</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Terms / Copyrights -->
+                <div class="text-[#544d71] text-[22px] flex justify-between items-center mx-20">
+                    <p>Copyright 2022 Sapphire, All Rights Reserved.</p>
+                    <div class="flex justify-evenly items-center gap-10">
+                        <p class="mr-[40px]">Privacy Policy</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
