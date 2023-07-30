@@ -6,7 +6,7 @@ E-Guru is a concept educational platform designed as a part of UI practice. It s
 
 ## Preview
 
-Preview is now available in the distribution (dist>output) folder.
+Preview is now available in the __output__ folder.
 
 ## Key Features
 
