@@ -28,7 +28,7 @@ The Futuristic Bike/E-Scooter Landing Page is a visually stunning web project th
 - HTML5
 - Tailwind CSS
 
-## Screenshot
+## Preview
 
 Preview is now available in the distribution (dist>output) folder.
 
