@@ -32,7 +32,7 @@ Pixelab is a minimal and professional business management website that demonstra
 
 ## Preview
 
-Preview is now available in the distribution (dist>output) folder.
+Preview is now available in the __distribution (dist>output)__ folder.
 
 ## How to Clone?
 

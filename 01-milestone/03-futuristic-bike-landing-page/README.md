@@ -30,7 +30,7 @@ The Futuristic Bike/E-Scooter Landing Page is a visually stunning web project th
 
 ## Preview
 
-Preview is now available in the distribution (dist>output) folder.
+Preview is now available in the __distribution (dist>output)__ folder.
 
 ## How to Clone?
 
