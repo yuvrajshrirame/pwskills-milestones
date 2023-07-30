@@ -29,7 +29,7 @@ The Hospital Landing Page is a web project that demonstrates my proficiency in H
 
 ## Preview
 
-Preview is now available in the distribution (dist>output) folder.
+Preview is now available in the __output__ folder.
 
 ## How to Clone?
 
