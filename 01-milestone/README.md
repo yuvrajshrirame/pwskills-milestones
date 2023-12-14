@@ -12,7 +12,7 @@ This repository contains the code for five projects that are part of my mileston
 
 2. **Hospital Landing Page**
 
-   > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/pwskills-milestones/01-milestone/02-hospital-landing-page/index.html "Open Hospital Website Project")
+   > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/pwskills-milestones/01-milestone/02-hospital-website-landing-page/index.html "Open Hospital Website Project")
    - Description: The second task involves designing a landing page for a hospital website using HTML and CSS only. The landing page will showcase essential information about the hospital, its services, and contact details.
    - Technologies: HTML, CSS
 
