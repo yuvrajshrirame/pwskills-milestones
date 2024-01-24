@@ -2,6 +2,8 @@
 
 This repository contains the code for five projects that are part of my milestone exam. Each project focuses on creating a landing page for various websites using HTML and CSS, with some projects utilizing Tailwind CSS for styling.
 
+> Note: The projects listed below are all non-responsive. So, be sure to watch it on a desktop computer.
+
 ## Projects
 
 1. **E-Guru Website**
@@ -19,7 +21,7 @@ This repository contains the code for five projects that are part of my mileston
 3. **Bike Landing Page**
 
    > __LIVE LINK:__ [Click Here](https://yuvrajshrirame.github.io/pwskills-milestones/01-milestone/03-futuristic-bike-landing-page/dist/index.html "Open E-Bike Website Project")
-   - Description: In this project, I will be creating a landing page for a futursitic bike designs using HTML and Tailwind CSS. Tailwind CSS will be used to efficiently style the page and ensure responsiveness.
+   - Description: In this project, I will be creating a landing page for a futursitic bike designs using HTML and Tailwind CSS. Tailwind CSS will be used to efficiently style the page.
    - Technologies: HTML, Tailwind CSS
 
 4. **NFT Website Landing Page**
